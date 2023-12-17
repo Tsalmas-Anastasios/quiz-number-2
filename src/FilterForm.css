@@ -1,0 +1,17 @@
+.filter-form-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filter-form-row > label,
+.filter-form-row > input,
+.filter-form-row > button {
+    flex-shrink: 0;
+    margin: 10px;
+}
+
+.filter-form-row > button {
+    width: 120px;
+    height: 30px;
+    padding: 5px;
+}

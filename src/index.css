@@ -1,0 +1,40 @@
+/* General layoyt and Typography styles */
+button {
+  background-color: #0095ff;
+  border-radius: 4px;
+  border-style: none;
+  color: white;
+  padding: 10px;
+  height: 40px;
+}
+
+button:hover,
+button:focus {
+  background-color: #07c;
+}
+
+button:focus {
+  box-shadow: 0 0 0 4px #0095ff26;
+}
+
+button:active {
+  background-color: #0064bd;
+  box-shadow: none;
+}
+
+body {
+  font-family: Verdana, Tahoma, sans-serif;
+  background-color: #f1f1f1;
+}
+
+header {
+  background-color: white;
+}
+
+footer {
+  background-color: #dddddd;
+}
+
+aside {
+  background-color: white;
+}

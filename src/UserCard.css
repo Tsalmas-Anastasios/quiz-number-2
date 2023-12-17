@@ -1,0 +1,8 @@
+.main-container__card {
+    border: 2px solid #2c88eb;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+    flex-basis: 17%;
+    flex-grow: 0;
+}

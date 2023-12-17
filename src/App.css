@@ -1,0 +1,38 @@
+/* General layoyt styles */
+#root{
+  width:100%;
+}
+
+
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+aside {
+  flex-basis: min-content; /*should fix the basis = width*/
+  background-color: white;
+  margin-right: 10px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+aside {
+  flex-basis: min-content; /*should fix the basis = width*/
+  margin-right: 10px;
+}
+
+.box {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
